@@ -1,0 +1,25 @@
+server:
+    port: 8182
+---
+
+spring:
+   
+    datasource:
+        password: password2
+        url: jdbc:oracle:thin:@localhost:1521:xe
+        username: srinidhi2
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.Oracle10gDialect
+                format_sql: true
+        show-sql: true
+welcome:
+    message: hellow gys
+    
+    
+---
+
+
